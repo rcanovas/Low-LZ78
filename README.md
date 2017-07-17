@@ -5,6 +5,7 @@ D. Arroyuelo, R. Canovas, G. Navarro, and R. Raman. "LZ78 Compression in Low Mai
 
 
 This work includes the following data structures:
+
 C++11:
 - hlz78: A LZ78 data structure that uses a fixed hash table.
 - ghlz78: A LZ78 data structure that uses a growing hash table.
