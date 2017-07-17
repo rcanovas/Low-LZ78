@@ -9,6 +9,7 @@ C++11:
 - hlz78: A LZ78 data structure that uses a fixed hash table.
 - ghlz78: A LZ78 data structure that uses a growing hash table.
 - mhlz78: A LZ78 data structure that uses multi-hash tables.
+
 C (32 bits):
 - lz78_min: The LZ78 compact representation of Arroyuelo and Navarro ("Space-efficient construction of Lempel-Ziv compressed text indexes". Information and Computation, 209(7):1070–1102, 2011).
 - lz78_uc: The LZ78 uncompressd baseline representation used by Arroyuelo and Navarro.
