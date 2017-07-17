@@ -22,7 +22,7 @@ To be able to compile the codes:
 - Install sdsl-lite. Follow the installation guide here: (https://github.com/simongog/sdsl-lite)
 - Modify the location of the sdsl library in the CMakeLists.txt if necessary.
 - Need cmake version 3.5 or higher.
-- For the C++11 code, go to the build folder and run: 
+- For the C++11 code, create the build folder and run: 
 	- cmake ..
 	- make
 - For the C codes, go to the lz78_c32 folder and run:
