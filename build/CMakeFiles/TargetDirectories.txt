@@ -1,4 +1,0 @@
-/home/rcanovas/Desktop/Codes/Git/Low-LZ78/build/CMakeFiles/rebuild_cache.dir
-/home/rcanovas/Desktop/Codes/Git/Low-LZ78/build/CMakeFiles/edit_cache.dir
-/home/rcanovas/Desktop/Codes/Git/Low-LZ78/build/CMakeFiles/DecompressHLZ.dir
-/home/rcanovas/Desktop/Codes/Git/Low-LZ78/build/CMakeFiles/CompressText.dir

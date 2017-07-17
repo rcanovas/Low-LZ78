@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -O3 -DNDEBUG   CMakeFiles/DecompressHLZ.dir/tests/DecompressHLZ.cpp.o  -o DecompressHLZ  -L/home/rcanovas/lib -lsdsl -ldivsufsort -ldivsufsort64 -Wl,-rpath,/home/rcanovas/lib 
