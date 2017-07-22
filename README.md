@@ -103,12 +103,13 @@ To be able to compile the codes:
 
 The results presented in the paper "LZ78 Compression in Low Main Memory Space" were generated using the 
 command line:
-	./CompressText in_file -w type_index -s sigma -f factor
-	using w= {1,3,5} and f = {5,10,20,40,60}, and files (with sigma):
-		dblp.xml (s=97)
-		proteins (s=27)
-		english  (s=237) --> Note: we needed to erasa /0 characters from the original text before compressing
-		DNA      (s=51)
+
+		./CompressText in_file -w type_index -s sigma -f factor
+		using w= {1,3,5} and f = {5,10,20,40,60}, and files (with sigma):
+			dblp.xml (s=97)
+			proteins (s=27)
+			english  (s=237) --> Note: we needed to erasa /0 characters from the original text before compressing
+			DNA      (s=51)
 
 For more information over the data structures and the data sets used please refer to the paper.
 
