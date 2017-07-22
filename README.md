@@ -19,8 +19,8 @@ C (32 bits):
 To be able to compile the codes: 
 - Install sdsl-lite. Follow the installation guide here: (https://github.com/simongog/sdsl-lite)
 - Modify the location of the sdsl library in the CMakeLists.txt if necessary.
-- Need cmake version 3.5 or higher.
-- For the C++11 code, go to the build folder and run: 
+- Require cmake version 3.5 or higher.
+- For the C++11 code, go to the build folder (create the folder if it does not exists) and run: 
 	- cmake ..
 	- make
 - For the C codes, go to the lz78_c32 folder and run:
@@ -100,7 +100,17 @@ To be able to compile the codes:
 		output: file (Decompressed version of file.lzt. Note: the original file is overwrite)
 
 
-For more information please refer to the paper "LZ78 Compression in Low Main Memory Space". To appear in Proc. SPIRE'17"
-	
+
+The results presented in the paper "LZ78 Compression in Low Main Memory Space" were generated using the 
+command line:
+	./CompressText in_file -w type_index -s sigma -f factor
+	using w= {1,3,5} and f = {5,10,20,40,60}, and files (with sigma):
+		dblp.xml (s=97)
+		proteins (s=27)
+		english  (s=237) --> Note: we needed to erasa /0 characters from the original text before compressing
+		DNA      (s=51)
+
+For more information over the data structures and the data sets used please refer to the paper.
+
 			
 Note: These codes assume that the computer used has enough RAM to read and store the complete input.
