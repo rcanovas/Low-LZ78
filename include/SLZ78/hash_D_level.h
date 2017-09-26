@@ -65,7 +65,7 @@ namespace cdslib {
             Msl = _Msl;
             if (Msl == 0)
                 Msl = 1.2 * (((double)M * f) + 1.0);
-            load_limit = (size_type) (std::ceil(Msl * (1.0 / (1.0 + f))));
+            load_limit = (size_type) (std::ceil(Msl * 0.8));    //   (1.0 / (1.0 + f))));
             d_inserted = 0;
             M_size = M;
             extra_level = nullptr;
